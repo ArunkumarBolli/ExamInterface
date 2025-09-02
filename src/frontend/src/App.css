@@ -1,0 +1,78 @@
+.login-container, .exam-container, .results-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+input {
+  display: block;
+  width: 20%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.error {
+  color: red;
+}
+
+.timer {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.question-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+
+.options label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers only the text */
+  padding: 10px 14px 10px 20px; /* extra left padding for radio */
+  margin: 6px 0;
+  border: 2px solid #ddd;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  text-align: center;
+}
+  
+
+.options label:hover {
+  background: #f8f9fa;
+}
+
+.submit-btn {
+  background: #28a745;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #218838;
+}
+
